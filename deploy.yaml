@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: web-deploy
+spec:
+  containers:
+    name: nginx
+    image: nginx:latest
+    protocol: TCP
+    port: 80
